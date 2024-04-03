@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Sample</Name>
+		<Description>Sample</Description>
+		<Assembly>DllHellTestAddin2\RevitAddin2.dll</Assembly>
+		<FullClassName>RevitAddin2.Addin</FullClassName>
+		<ClientId>DD9D7B0D-90B8-E9AA-F353-B8D3B525D0D4</ClientId>
+		<VendorId>Sample</VendorId>
+		<VendorDescription>演示插件</VendorDescription>
+	</AddIn>
+</RevitAddIns>

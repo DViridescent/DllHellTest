@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "MyRhinoPlugin1": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Rhino\\7.18\\System\\Rhino.exe",
+      "commandLineArgs": "$(TargetPath)"
+    }
+  }
+}

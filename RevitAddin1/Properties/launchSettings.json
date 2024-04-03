@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "配置文件 1": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Revit2021\\Revit 2021\\Revit.exe"
+    }
+  }
+}
