@@ -26,9 +26,9 @@ namespace MyRhinoPlugin1
 
         protected override Result RunCommand(RhinoDoc doc, RunMode mode)
         {
-            var version = typeof(MaterialDesignColors.MaterialDesignColor).Assembly.GetName().Version.ToString();
-            Dialogs.ShowMessage(version,"Plugin1");
-            
+            var version = typeof(MaterialDesignThemes.Wpf.ButtonAssist).Assembly.GetName().Version.ToString();
+            Dialogs.ShowMessage(version, "Plugin1");
+
             return Result.Success;
         }
     }

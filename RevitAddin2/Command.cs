@@ -14,7 +14,7 @@ namespace RevitAddin2
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            var version = typeof(MaterialDesignColors.MaterialDesignColor).Assembly.GetName().Version.ToString();
+            var version = typeof(MaterialDesignThemes.Wpf.ButtonAssist).Assembly.GetName().Version.ToString();
             TaskDialog.Show("Addin2", version);
             return Result.Succeeded;
         }
